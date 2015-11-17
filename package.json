@@ -1,0 +1,31 @@
+{
+  "name": "jio-micro-services-shell",
+  "version": "0.0.1",
+  "description": "shell for jio blog micro servicesdependiences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonniedarko/jio-micro-services.git"
+  },
+  "author": "jonniedarko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonniedarko/jio-micro-services/issues"
+  },
+  "homepage": "https://github.com/jonniedarko/jio-micro-services#readme",
+  "dependencies": {
+    "jio-blog": "git+https://github.com/jonniedarko/jio-blog.git#dev",
+    "jio-blog-angular-client": "git+https://github.com/jonniedarko/jio-blog-angular-client.git#dev",
+    "jio-node-auth": "git+https://github.com/jonniedarko/jio-node-auth.git#dev",
+    "jio-user-service": "git+https://github.com/jonniedarko/jio-user-service.git#dev"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-env": "^0.2.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.4"
+  }
+}
